@@ -58,13 +58,13 @@
 								<object class="NSView" id="182992604">
 									<reference key="NSNextResponder" ref="577525612"/>
 									<int key="NSvFlags">274</int>
-									<string key="NSFrame">{{1, 1}, {444, 252}}</string>
+									<string key="NSFrame">{{1, 1}, {444, 234}}</string>
 									<reference key="NSSuperview" ref="577525612"/>
 									<reference key="NSWindow"/>
 									<string key="NSReuseIdentifierKey">_NS:632</string>
 								</object>
 							</object>
-							<string key="NSFrame">{{17, 16}, {446, 254}}</string>
+							<string key="NSFrame">{{17, 16}, {446, 236}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
 							<string key="NSReuseIdentifierKey">_NS:630</string>
