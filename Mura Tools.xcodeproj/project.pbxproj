@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA3E1D46140858960060D051 /* CreatePlugin.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3E1D45140858960060D051 /* CreatePlugin.xib */; };
 		AA50FD181408416A0095F173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50FD171408416A0095F173 /* Cocoa.framework */; };
 		AA50FD221408416A0095F173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA50FD201408416A0095F173 /* InfoPlist.strings */; };
 		AA50FD241408416A0095F173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50FD231408416A0095F173 /* main.m */; };
@@ -18,6 +19,9 @@
 		AA50FD3F1408416A0095F173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA50FD3D1408416A0095F173 /* InfoPlist.strings */; };
 		AA50FD421408416A0095F173 /* Mura_ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50FD411408416A0095F173 /* Mura_ToolsTests.m */; };
 		AA50FD50140841BE0095F173 /* Mura-Tools-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA50FD4F140841BE0095F173 /* Mura-Tools-Logo.jpg */; };
+		AAB8C686140853B90043AA0B /* DownloadMura.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB8C685140853B90043AA0B /* DownloadMura.xib */; };
+		AAB8C68B140857B30043AA0B /* DeployPlugin.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB8C68A140857B30043AA0B /* DeployPlugin.xib */; };
+		AAB8C68D140857C50043AA0B /* ThemeBuilder.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB8C68C140857C50043AA0B /* ThemeBuilder.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA3E1D45140858960060D051 /* CreatePlugin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatePlugin.xib; sourceTree = "<group>"; };
 		AA50FD131408416A0095F173 /* Mura Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mura Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA50FD171408416A0095F173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AA50FD1A1408416A0095F173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -51,6 +56,9 @@
 		AA50FD401408416A0095F173 /* Mura_ToolsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mura_ToolsTests.h; sourceTree = "<group>"; };
 		AA50FD411408416A0095F173 /* Mura_ToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mura_ToolsTests.m; sourceTree = "<group>"; };
 		AA50FD4F140841BE0095F173 /* Mura-Tools-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mura-Tools-Logo.jpg"; sourceTree = "<group>"; };
+		AAB8C685140853B90043AA0B /* DownloadMura.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadMura.xib; sourceTree = "<group>"; };
+		AAB8C68A140857B30043AA0B /* DeployPlugin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeployPlugin.xib; sourceTree = "<group>"; };
+		AAB8C68C140857C50043AA0B /* ThemeBuilder.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeBuilder.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 				AA50FD2A1408416A0095F173 /* Mura_ToolsAppDelegate.m */,
 				AA50FD2C1408416A0095F173 /* MainMenu.xib */,
 				AA50FD1E1408416A0095F173 /* Supporting Files */,
+				AAB8C685140853B90043AA0B /* DownloadMura.xib */,
+				AAB8C68A140857B30043AA0B /* DeployPlugin.xib */,
+				AAB8C68C140857C50043AA0B /* ThemeBuilder.xib */,
+				AA3E1D45140858960060D051 /* CreatePlugin.xib */,
 			);
 			path = "Mura Tools";
 			sourceTree = "<group>";
@@ -230,6 +242,10 @@
 				AA50FD281408416A0095F173 /* Credits.rtf in Resources */,
 				AA50FD2E1408416A0095F173 /* MainMenu.xib in Resources */,
 				AA50FD50140841BE0095F173 /* Mura-Tools-Logo.jpg in Resources */,
+				AAB8C686140853B90043AA0B /* DownloadMura.xib in Resources */,
+				AAB8C68B140857B30043AA0B /* DeployPlugin.xib in Resources */,
+				AAB8C68D140857C50043AA0B /* ThemeBuilder.xib in Resources */,
+				AA3E1D46140858960060D051 /* CreatePlugin.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
