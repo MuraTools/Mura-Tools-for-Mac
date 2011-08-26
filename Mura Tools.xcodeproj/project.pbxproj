@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA50FD181408416A0095F173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50FD171408416A0095F173 /* Cocoa.framework */; };
+		AA50FD221408416A0095F173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA50FD201408416A0095F173 /* InfoPlist.strings */; };
+		AA50FD241408416A0095F173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50FD231408416A0095F173 /* main.m */; };
+		AA50FD281408416A0095F173 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AA50FD261408416A0095F173 /* Credits.rtf */; };
+		AA50FD2B1408416A0095F173 /* Mura_ToolsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50FD2A1408416A0095F173 /* Mura_ToolsAppDelegate.m */; };
+		AA50FD2E1408416A0095F173 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA50FD2C1408416A0095F173 /* MainMenu.xib */; };
+		AA50FD361408416A0095F173 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50FD351408416A0095F173 /* SenTestingKit.framework */; };
+		AA50FD371408416A0095F173 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA50FD171408416A0095F173 /* Cocoa.framework */; };
+		AA50FD3F1408416A0095F173 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA50FD3D1408416A0095F173 /* InfoPlist.strings */; };
+		AA50FD421408416A0095F173 /* Mura_ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50FD411408416A0095F173 /* Mura_ToolsTests.m */; };
+		AA50FD50140841BE0095F173 /* Mura-Tools-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA50FD4F140841BE0095F173 /* Mura-Tools-Logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA50FD381408416A0095F173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA50FD0A1408416A0095F173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA50FD121408416A0095F173;
+			remoteInfo = "Mura Tools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA50FD131408416A0095F173 /* Mura Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mura Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA50FD171408416A0095F173 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA50FD1A1408416A0095F173 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA50FD1B1408416A0095F173 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA50FD1C1408416A0095F173 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA50FD1F1408416A0095F173 /* Mura Tools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mura Tools-Info.plist"; sourceTree = "<group>"; };
+		AA50FD211408416A0095F173 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA50FD231408416A0095F173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA50FD251408416A0095F173 /* Mura Tools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mura Tools-Prefix.pch"; sourceTree = "<group>"; };
+		AA50FD271408416A0095F173 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AA50FD291408416A0095F173 /* Mura_ToolsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mura_ToolsAppDelegate.h; sourceTree = "<group>"; };
+		AA50FD2A1408416A0095F173 /* Mura_ToolsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mura_ToolsAppDelegate.m; sourceTree = "<group>"; };
+		AA50FD2D1408416A0095F173 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA50FD341408416A0095F173 /* Mura ToolsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mura ToolsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA50FD351408416A0095F173 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA50FD3C1408416A0095F173 /* Mura ToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mura ToolsTests-Info.plist"; sourceTree = "<group>"; };
+		AA50FD3E1408416A0095F173 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA50FD401408416A0095F173 /* Mura_ToolsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mura_ToolsTests.h; sourceTree = "<group>"; };
+		AA50FD411408416A0095F173 /* Mura_ToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mura_ToolsTests.m; sourceTree = "<group>"; };
+		AA50FD4F140841BE0095F173 /* Mura-Tools-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mura-Tools-Logo.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA50FD101408416A0095F173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50FD181408416A0095F173 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA50FD301408416A0095F173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50FD361408416A0095F173 /* SenTestingKit.framework in Frameworks */,
+				AA50FD371408416A0095F173 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA50FD081408416A0095F173 = {
+			isa = PBXGroup;
+			children = (
+				AA50FD4F140841BE0095F173 /* Mura-Tools-Logo.jpg */,
+				AA50FD1D1408416A0095F173 /* Mura Tools */,
+				AA50FD3A1408416A0095F173 /* Mura ToolsTests */,
+				AA50FD161408416A0095F173 /* Frameworks */,
+				AA50FD141408416A0095F173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA50FD141408416A0095F173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA50FD131408416A0095F173 /* Mura Tools.app */,
+				AA50FD341408416A0095F173 /* Mura ToolsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA50FD161408416A0095F173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA50FD171408416A0095F173 /* Cocoa.framework */,
+				AA50FD351408416A0095F173 /* SenTestingKit.framework */,
+				AA50FD191408416A0095F173 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA50FD191408416A0095F173 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA50FD1A1408416A0095F173 /* AppKit.framework */,
+				AA50FD1B1408416A0095F173 /* CoreData.framework */,
+				AA50FD1C1408416A0095F173 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA50FD1D1408416A0095F173 /* Mura Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AA50FD291408416A0095F173 /* Mura_ToolsAppDelegate.h */,
+				AA50FD2A1408416A0095F173 /* Mura_ToolsAppDelegate.m */,
+				AA50FD2C1408416A0095F173 /* MainMenu.xib */,
+				AA50FD1E1408416A0095F173 /* Supporting Files */,
+			);
+			path = "Mura Tools";
+			sourceTree = "<group>";
+		};
+		AA50FD1E1408416A0095F173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA50FD1F1408416A0095F173 /* Mura Tools-Info.plist */,
+				AA50FD201408416A0095F173 /* InfoPlist.strings */,
+				AA50FD231408416A0095F173 /* main.m */,
+				AA50FD251408416A0095F173 /* Mura Tools-Prefix.pch */,
+				AA50FD261408416A0095F173 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA50FD3A1408416A0095F173 /* Mura ToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA50FD401408416A0095F173 /* Mura_ToolsTests.h */,
+				AA50FD411408416A0095F173 /* Mura_ToolsTests.m */,
+				AA50FD3B1408416A0095F173 /* Supporting Files */,
+			);
+			path = "Mura ToolsTests";
+			sourceTree = "<group>";
+		};
+		AA50FD3B1408416A0095F173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA50FD3C1408416A0095F173 /* Mura ToolsTests-Info.plist */,
+				AA50FD3D1408416A0095F173 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA50FD121408416A0095F173 /* Mura Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA50FD451408416A0095F173 /* Build configuration list for PBXNativeTarget "Mura Tools" */;
+			buildPhases = (
+				AA50FD0F1408416A0095F173 /* Sources */,
+				AA50FD101408416A0095F173 /* Frameworks */,
+				AA50FD111408416A0095F173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mura Tools";
+			productName = "Mura Tools";
+			productReference = AA50FD131408416A0095F173 /* Mura Tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA50FD331408416A0095F173 /* Mura ToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA50FD481408416A0095F173 /* Build configuration list for PBXNativeTarget "Mura ToolsTests" */;
+			buildPhases = (
+				AA50FD2F1408416A0095F173 /* Sources */,
+				AA50FD301408416A0095F173 /* Frameworks */,
+				AA50FD311408416A0095F173 /* Resources */,
+				AA50FD321408416A0095F173 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA50FD391408416A0095F173 /* PBXTargetDependency */,
+			);
+			name = "Mura ToolsTests";
+			productName = "Mura ToolsTests";
+			productReference = AA50FD341408416A0095F173 /* Mura ToolsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA50FD0A1408416A0095F173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AA50FD0D1408416A0095F173 /* Build configuration list for PBXProject "Mura Tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA50FD081408416A0095F173;
+			productRefGroup = AA50FD141408416A0095F173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA50FD121408416A0095F173 /* Mura Tools */,
+				AA50FD331408416A0095F173 /* Mura ToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA50FD111408416A0095F173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50FD221408416A0095F173 /* InfoPlist.strings in Resources */,
+				AA50FD281408416A0095F173 /* Credits.rtf in Resources */,
+				AA50FD2E1408416A0095F173 /* MainMenu.xib in Resources */,
+				AA50FD50140841BE0095F173 /* Mura-Tools-Logo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA50FD311408416A0095F173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50FD3F1408416A0095F173 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA50FD321408416A0095F173 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA50FD0F1408416A0095F173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50FD241408416A0095F173 /* main.m in Sources */,
+				AA50FD2B1408416A0095F173 /* Mura_ToolsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA50FD2F1408416A0095F173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA50FD421408416A0095F173 /* Mura_ToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA50FD391408416A0095F173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA50FD121408416A0095F173 /* Mura Tools */;
+			targetProxy = AA50FD381408416A0095F173 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA50FD201408416A0095F173 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA50FD211408416A0095F173 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA50FD261408416A0095F173 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA50FD271408416A0095F173 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AA50FD2C1408416A0095F173 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA50FD2D1408416A0095F173 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		AA50FD3D1408416A0095F173 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA50FD3E1408416A0095F173 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA50FD431408416A0095F173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA50FD441408416A0095F173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA50FD461408416A0095F173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mura Tools/Mura Tools-Prefix.pch";
+				INFOPLIST_FILE = "Mura Tools/Mura Tools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA50FD471408416A0095F173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mura Tools/Mura Tools-Prefix.pch";
+				INFOPLIST_FILE = "Mura Tools/Mura Tools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA50FD491408416A0095F173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mura Tools.app/Contents/MacOS/Mura Tools";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mura Tools/Mura Tools-Prefix.pch";
+				INFOPLIST_FILE = "Mura ToolsTests/Mura ToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AA50FD4A1408416A0095F173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mura Tools.app/Contents/MacOS/Mura Tools";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mura Tools/Mura Tools-Prefix.pch";
+				INFOPLIST_FILE = "Mura ToolsTests/Mura ToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA50FD0D1408416A0095F173 /* Build configuration list for PBXProject "Mura Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA50FD431408416A0095F173 /* Debug */,
+				AA50FD441408416A0095F173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA50FD451408416A0095F173 /* Build configuration list for PBXNativeTarget "Mura Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA50FD461408416A0095F173 /* Debug */,
+				AA50FD471408416A0095F173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA50FD481408416A0095F173 /* Build configuration list for PBXNativeTarget "Mura ToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA50FD491408416A0095F173 /* Debug */,
+				AA50FD4A1408416A0095F173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA50FD0A1408416A0095F173 /* Project object */;
+}
